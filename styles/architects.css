@@ -8,3 +8,68 @@
   font-weight: 400;
   font-style: normal;
 }
+
+/* shred styles */
+.bg-primary{
+  background-color: rgba(255, 144, 14, 0.1);
+}
+.display-flex{
+  display: flex;
+}
+.text-gray-02{
+  color: rgba(66, 66, 66, 1);
+}
+.text-light-gray-03{
+  color: #727272;
+}
+.btn-primary{
+  background-color: rgba(255, 144, 14, 1);
+  color: white;
+  padding: 20px 25px;
+  border-radius: 10px;
+  border: none;
+  font-size: 1.25rem;
+  font-weight: 600;
+}
+/* Header styles */
+
+/*nav styles */
+.navbar{
+  justify-content: space-between;
+  align-items: center;
+}
+.brand{
+  font-size: 3rem;
+  font-weight: 700;
+}
+.nav-item{
+  list-style: none;
+  margin-right: 30px;
+  
+}
+.nav-link{
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.navbar, .banner{
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+/* Banner styles */
+.banner-content{
+  max-width: 850px;
+  margin: 0 auto;
+  text-align: center;
+  margin-bottom: 50px;
+}
+.banner-tittle{
+  font-size: 4rem;
+  font-weight: 700;
+}
+.banner-img{
+  width: 100%;
+}
+
+/* Responsivenes code */
