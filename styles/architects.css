@@ -129,19 +129,18 @@ main{
   font-weight: 500;
   margin-top: 10px;
   margin-bottom: 5px;
+}
 
-
+.team-des{
+  max-width: 500px;
 }
 .fact-des{
   text-align: center;
   font-size: 1.25;
   font-weight: 600;
-  max-width: 500px;
- 
 } 
 
-________________________________________________________________________________________________________________
-
+/* ____________________________________________________________________________________________ */
 
 
 /* Responsivenes media query  for small device*/
@@ -157,6 +156,13 @@ ________________________________________________________________________________
   } 
   .team_features{
     margin-left: 20px;
+  }
+  .facts-container{
+    grid-template-columns: repeat(1, 1fr);
+    
+  }
+  .fact{
+    margin: 0 auto;
   }
 }
 
@@ -175,5 +181,12 @@ ________________________________________________________________________________
   } 
   .team_features{
     margin-left: 50px auto;
+  }
+  .facts-container{
+    grid-template-columns: repeat(2, 1fr);
+    
+  }
+  .fact{
+    margin: 0 auto;
   }
 }
