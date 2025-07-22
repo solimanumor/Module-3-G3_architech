@@ -34,6 +34,10 @@
 main > section{
   margin-top: 130px;
 }
+.section-titlle{
+  font-size: 2.8rem;
+  font-weight: 700;
+}
 /* Main style */
 main{
   max-width: 1440px;
@@ -94,17 +98,52 @@ main{
   margin-left: 130px;
   max-width: 530px;
 }
-.team-titlle{
-  font-size: 2.8rem;
-  font-weight: 700;
-  
-}
+
 #quick-list{
   font-weight: 500;
 }
 #featurea{
   color: rgba(255, 144, 14, 1);
 }
+/* Featuere section */
+.facts-container{
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 125px;
+}
+
+.fact{
+  border: 1px solid rgba(255, 144, 14, 1);
+  border-radius: 8px;
+  padding: 45px 35px 60px;
+  width: 240px;
+  height: 240px;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.fact-number{
+  text-align: center;
+  font-size: 2.8rem;
+  font-weight: 500;
+  margin-top: 10px;
+  margin-bottom: 5px;
+
+
+}
+.fact-des{
+  text-align: center;
+  font-size: 1.25;
+  font-weight: 600;
+  max-width: 500px;
+ 
+} 
+
+________________________________________________________________________________________________________________
+
+
+
 /* Responsivenes media query  for small device*/
 
 @media screen and (max-width: 576px) {
@@ -120,6 +159,8 @@ main{
     margin-left: 20px;
   }
 }
+
+
 
 /* Responsivenes media query  for Medium device*/
 
